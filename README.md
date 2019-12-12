@@ -10,7 +10,7 @@ A server-side script to scrape Reddit communities in real time and send SMS aler
     spy.loop()
 The code above creates a web-scraper that will watch the r/FREE subreddit and sends SMS messages when posts with 'gift card' in the title are detected.
 # Config
-Inside the config.py file, you will find the following parameters which you should configure to your Reddit (https://www.reddit.com/prefs/apps) and Twilio (https://www.twilio.com/console) developer accounts:
+Inside the [config.py](https://github.com/BrianSantoso/reddit-sms/blob/master/config.py) file, you will find the following parameters which you should configure to your Reddit (https://www.reddit.com/prefs/apps) and Twilio (https://www.twilio.com/console) developer accounts:
     
     REDDIT_CLIENT_ID = 'Your reddit client id'
     REDDIT_CLIENT_SECRET = 'Your reddit client secret'
