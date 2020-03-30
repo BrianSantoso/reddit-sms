@@ -1,6 +1,7 @@
 # Reddit SMS Alerts
 
 A server-side script to scrape Reddit communities in real time and send SMS alerts when posts of interests are detected
+
     pip install -r requirements.txt
 
 # Usage
